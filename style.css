@@ -1,0 +1,43 @@
+html, body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+	background: hsla(332, 53%, 82%, 1);
+
+background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+background: -moz-linear-gradient(120deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+background: -webkit-linear-gradient(120deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9B7CE", endColorstr="#D3F3F1", GradientType=1 );
+	  font-family: Verdana, sans-serif;
+
+}
+/* unvisited link */
+a:link {
+  color: darkblue;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkpink;
+}
+
+/* selected link */
+a:active {
+  color: #888;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  text-align: center;
+}
